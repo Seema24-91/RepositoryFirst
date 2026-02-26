@@ -18,6 +18,12 @@ public class LoginPageTest extends Base1 {
 	        
 	        AssertJUnit.assertTrue(driver.getTitle().contains("ParaBank"));
 	    }
+	    
+
+		@Test
+	    public void verifyTest() {
+	        Assert.assertFalse(false);
+	    }
 	}
 
 
